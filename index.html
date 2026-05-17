@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Homepage</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="header-bar">
+        <div>
+          <p class="eyebrow">Han Zhang's homepage</p>
+        </div>
+        <nav aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="hero-kicker">“From the mountains I come, bearing wild orchids.”</p>
+          <h1 id="hero-title">One more!</h1>
+          <p class="hero-subtitle">A personal homepage and basic introduction to who I am and what I am learning now.</p>
+          <div class="hero-actions">
+            <a class="button-link" href="#blog">Read the latest post</a>
+            <a class="text-link" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-visuals">
+          <div class="hero-image-slot">
+            <img src="figures/cover.jpeg" alt="Homepage cover artwork" class="hero-image">
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="content-section intro-section" id="introduction" aria-labelledby="introduction-title">
+        <div class="section-heading">
+          <p class="section-label">Introduction</p>
+          <h2 id="introduction-title">A simple starting point for who I am.</h2>
+        </div>
+        <div class="section-card">
+          <p>I am an undergraduate student at the University of Science and Technology of China, majoring in Computational Mathematics. I am particularly interested in the fields of computer graphics and computer vision, and in the course of studying these areas, I have also acquired some knowledge in computer science and artificial intelligence.</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="interests" aria-labelledby="interests-title">
+        <div class="section-heading">
+          <p class="section-label">Interests</p>
+          <h2 id="interests-title">The topics guiding my current course focus.</h2>
+        </div>
+        <div class="interest-grid">
+          <article class="section-card interest-card">
+            <h3>Computer Graphics</h3>
+            <p>I am especially interested in how visual scenes are represented, rendered, and transformed into images, from geometric structure to modern learning-based graphics methods.</p>
+          </article>
+          <article class="section-card interest-card">
+            <h3>Computer Vision</h3>
+            <p>I also care about how machines understand images and video, especially how representation learning and visual reasoning connect perception with real-world tasks.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="blog" aria-labelledby="blog-title">
+        <div class="section-heading">
+          <p class="section-label">Blog</p>
+          <h2 id="blog-title">Something interesting to share.</h2>
+        </div>
+        <article class="blog-card">
+          <p class="post-meta">May 2026</p>
+          <h3><a href="blog/first-post.html">First Technical Post: From Hearing About Transformers to Understanding Why They Matter</a></h3>
+          <p>A student-friendly introduction to why Transformers stood out to me, how self-attention changed sequence modeling, and why RenderFormer-like graphics work made the idea feel even broader.</p>
+          <p><a class="text-link" href="blog/first-post.html">阅读全文</a></p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <p class="section-label">Contact</p>
+      <h2>Welcome!</h2>
+      <p>Email: <a href="mailto:ty123456@mail.ustc.edu.cn">ty123456@mail.ustc.edu.cn</a></p>
+    </footer>
+  </div>
+</body>
+</html>
